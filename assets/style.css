@@ -1,0 +1,28 @@
+body {
+  background: rgb(232, 226, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 226, 226, 1) 0%,
+    rgba(188, 234, 213, 1) 25%,
+    rgba(142, 195, 176, 1) 50%,
+    rgba(188, 234, 213, 1) 75%,
+    rgba(222, 245, 229, 1) 100%
+  );
+}
+
+.formdiv {
+  height: 60rem;
+}
+
+.formdiv2 {
+  background-color: #def5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit-btn:hover {
+  background-color: #9ed5c5 !important;
+  color: black !important;
+  transition: 0.9s ease;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 9px 25px 0 rgba(0, 0, 0, 0.19);
+}

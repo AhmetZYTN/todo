@@ -1,0 +1,15 @@
+.todoListPanel {
+  display: none;
+}
+
+.todoList.todoShowAll .todoItem {
+  display: flex;
+}
+
+.todoList.todoShowActive .todoItem:has(.todoCheck:checked) {
+  display: none;
+}
+
+.todoList.todoShowDone .todoItem:not(:has(.todoCheck:checked)) {
+  display: none;
+}
